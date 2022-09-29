@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import Main from './components/Main/Main';
 
 function App() {
   return (
     <div className="App">
-      <h1>Fitness First GYM</h1>
+      <Header></Header>
+      <Main></Main>
     </div>
   );
 }
