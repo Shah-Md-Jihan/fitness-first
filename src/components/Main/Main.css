@@ -1,5 +1,12 @@
 .main-container {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
     padding: 20px 100px;
+}
+
+.exercise-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px 20px;
+    padding: 10px;
 }
