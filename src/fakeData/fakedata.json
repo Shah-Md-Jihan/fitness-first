@@ -9,7 +9,8 @@
             "2.Take a step forward with your right leg and bend your right knee as you do so, stopping when your thigh is parallel to the ground. Ensure that your right knee doesn’t extend past your right foot.",
             "3.Push up off your right foot and return to the starting position. Repeat with your left leg. This is one rep.",
             "4.Complete 3 sets of 10 reps."
-        ]
+        ],
+        "time": "10min"
     },
     {
         "id": "2",
@@ -20,7 +21,8 @@
             "1.Start in a plank position. Your core should be tight, shoulders pulled down and back, and your neck neutral.",
             "2.Bend your elbows and begin to lower your body down to the floor. When your chest grazes it, extend your elbows and return to the start. Focus on keeping your elbows close to your body during the movement.",
             "3.Complete 3 sets of as many reps as possible."
-        ]
+        ],
+        "time": "15min"
     },
     {
         "id": "3",
@@ -32,7 +34,8 @@
             "2.Brace your core and, keeping your chest and chin up, push your hips back and bend your knees as if you’re going to sit in a chair.",
             "3.Ensuring your knees don’t bow inward or outward, drop down until your thighs are parallel to the ground, bringing your arms out in front of you in a comfortable position. Pause for 1 second, then extend your legs and return to the starting position.",
             "4.Complete 3 sets of 20 reps."
-        ]
+        ],
+        "time": "15min"
     },
     {
         "id": "4",
@@ -44,7 +47,8 @@
             "2.Bracing your core, begin to push up until your arms are fully extended above your head. Keep your head and neck stationary.",
             "3.After a brief pause, bend your elbows and lower the weight back down until your triceps muscle is parallel to the floor again.",
             "4.Complete 3 sets of 12 reps."
-        ]
+        ],
+        "time": "30min"
     },
     {
         "id": "5",
@@ -56,7 +60,8 @@
             "2.Bend forward at the waist, so your back is at a 45-degree angle to the ground. Be certain not to arch your back. Let your arms hang straight down. Ensure your neck is in line with your back and your core is engaged",
             "3.Starting with your right arm, bend your elbow and pull the weight straight up toward your chest, making sure to engage your lat and stopping just below your chest.",
             "4.Return to the starting position and repeat with the left arm. This is one rep. Repeat 10 times for 3 sets."
-        ]
+        ],
+        "time": "20min"
     },
     {
         "id": "6",
@@ -68,6 +73,7 @@
             "2.Hinging at the hips, begin to kick your left leg straight back behind you, lowering the dumbbell down toward the ground.",
             "3.When you reach a comfortable height with your left leg, slowly return to the starting position in a controlled motion, squeezing your right glute. Ensure that your pelvis stays square to the ground during the movement.",
             "4.Repeat 10 to 12 reps before moving the weight to your left hand and repeating the same steps on the left leg. It’s suggested to do 3 sets of 10-12 reps per side."
-        ]
+        ],
+        "time": "15min"
     }
 ]
