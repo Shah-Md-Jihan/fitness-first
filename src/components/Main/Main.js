@@ -1,14 +1,23 @@
 import React, { useEffect, useState } from 'react';
 import Excercise from '../Excercise/Excercise';
+import Profile from '../Profile/Profile';
 import './Main.css';
 
 const Main = () => {
     const [exercises, setExercise] = useState([]);
+    const [profileInfos, setProfileInfos] = useState([]);
     useEffect(() => {
         fetch('fakedata.json')
             .then(res => res.json())
             .then(data => setExercise(data))
-    }, [])
+    }, []);
+
+    useEffect(() => {
+        fetch('fakeuser.json')
+            .then(res => res.json())
+            .then(data => setProfileInfos(data))
+    }, []);
+
     return (
         <div className='main-container'>
             <div className="exercise-container">
@@ -18,7 +27,11 @@ const Main = () => {
 
             </div>
             <div className="sidebar">
-                <h1>This is sidebar</h1>
+                {
+                    profileInfos.map(profileInfo => <Profile key={profileInfo.id} profileInfo={profileInfo}></Profile>)
+
+                }
+
             </div>
         </div>
     );

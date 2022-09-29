@@ -1,0 +1,39 @@
+.profile-container {
+    text-align: left;
+    padding: 10px 30px;
+    width: 100%;
+}
+
+.profile-container h5 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.profile-container p {
+    margin: 0;
+    padding: 4px 0px;
+    font-size: 16px;
+}
+
+.profile-pic {
+    width: 40%;
+    border-radius: 50px;
+}
+
+.body-measurement-container {
+    display: flex;
+}
+
+.body-measurement-container div {
+    margin-right: 5px;
+    background-color: tomato;
+    text-align: center;
+    padding: 8px 15px;
+    color: #FFFFFF;
+    border-radius: 7px;
+}
+
+.body-measurement-container div h4 {
+    margin: 0;
+}
