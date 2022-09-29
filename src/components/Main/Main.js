@@ -8,6 +8,18 @@ import './Main.css';
 const Main = () => {
     const [exercises, setExercise] = useState([]);
     const [profileInfos, setProfileInfos] = useState([]);
+    const [times, setTimes] = useState([]);
+    const [breaks, setBreaks] = useState([]);
+
+
+    const selectHandler = (props) => {
+        const newTimes = [...times, props];
+        setTimes(newTimes);
+    }
+    const selectBreakHandler = (props) => {
+        const newBreaks = [...breaks, props];
+        setBreaks(newBreaks);
+    }
     useEffect(() => {
         fetch('fakedata.json')
             .then(res => res.json())
@@ -24,17 +36,19 @@ const Main = () => {
         <div className='main-container'>
             <div className="exercise-container">
                 {
-                    exercises.map(exercise => <Excercise key={exercise.id} exercise={exercise}></Excercise>)
+                    exercises.map(exercise => <Excercise key={exercise.id} exercise={exercise} selectHandler={selectHandler}></Excercise>)
                 }
 
             </div>
             <div className="sidebar">
+
                 {
                     profileInfos.map(profileInfo => <Profile key={profileInfo.id} profileInfo={profileInfo}></Profile>)
 
                 }
-                <Break></Break>
-                <Duration></Duration>
+
+                <Break selectBreakHandler={selectBreakHandler}></Break>
+                <Duration times={times} breaks={breaks}></Duration>
             </div>
         </div>
     );

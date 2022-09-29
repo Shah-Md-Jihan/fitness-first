@@ -21,7 +21,7 @@ const Excercise = (props) => {
                 }
             </div>
             <div className='ex-button-container'>
-                <button className='ex-button'>Add to Your List</button>
+                <button className='ex-button' onClick={() => props.selectHandler(props.exercise)}>Add to Your List</button>
             </div>
         </div>
     );

@@ -13,7 +13,17 @@
 .break {
     background-color: tomato;
     margin-right: 10px;
-    padding: 14px 7px;
+    padding: 14px 3px;
     border-radius: 50%;
+}
+
+.break button {
+    border: none;
+    background: none;
     color: #ffff;
+}
+
+.break button:hover {
+    cursor: pointer;
+    color: #87a1eb;
 }
