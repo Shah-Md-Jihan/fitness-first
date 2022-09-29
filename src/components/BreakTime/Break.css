@@ -1,6 +1,8 @@
 .break-section h2 {
     margin: 0;
     padding-top: 30px;
+    text-align: left;
+    padding-left: 30px;
 }
 
 .break-container {

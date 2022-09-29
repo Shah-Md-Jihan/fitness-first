@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Break from '../BreakTime/Break';
+import Duration from '../Duration/Duration';
 import Excercise from '../Excercise/Excercise';
 import Profile from '../Profile/Profile';
 import './Main.css';
@@ -33,6 +34,7 @@ const Main = () => {
 
                 }
                 <Break></Break>
+                <Duration></Duration>
             </div>
         </div>
     );

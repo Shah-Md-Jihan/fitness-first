@@ -1,0 +1,35 @@
+.duration-section {
+    padding: 30px;
+}
+
+.duration-section h2 {
+    text-align: left;
+}
+
+.duration-section button {
+    width: 100%;
+    padding: 14px 10px;
+    margin-top: 20px;
+    background-color: tomato;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.duration-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title-duration {
+    width: 50%;
+    text-align: right;
+}
+
+.duration-time {
+    width: 50%;
+    text-align: left;
+    padding-left: 15px;
+}
