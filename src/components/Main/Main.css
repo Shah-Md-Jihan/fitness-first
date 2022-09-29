@@ -1,7 +1,7 @@
 .main-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
-    padding: 20px 100px;
+    padding: 20px 75px;
 }
 
 .exercise-container {
