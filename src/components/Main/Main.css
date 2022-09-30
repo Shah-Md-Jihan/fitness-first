@@ -17,3 +17,28 @@
     max-height: 800px;
     margin-top: 10px;
 }
+
+@media only screen and (max-width: 390px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .exercise-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .exercise-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
