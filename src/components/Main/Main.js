@@ -11,7 +11,6 @@ const Main = () => {
     const [times, setTimes] = useState([]);
     const [breaks, setBreaks] = useState([]);
 
-
     const selectHandler = (props) => {
         const newTimes = [...times, props];
         setTimes(newTimes);

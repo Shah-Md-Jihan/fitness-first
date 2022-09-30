@@ -1,7 +1,7 @@
 .header-container {
     display: flex;
     justify-content: space-between;
-    padding: 20px 100px;
+    padding: 6px 100px;
     align-items: center;
     background-color: #87a1eb;
 }
