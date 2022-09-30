@@ -14,7 +14,7 @@ const Excercise = (props) => {
                 <p>{detail.slice(0, 80)}...<a href='/'>more</a></p>
             </div>
             <div className='rules'>
-                <h4><FontAwesomeIcon icon={faClock}></FontAwesomeIcon> {time}</h4>
+                <h4><FontAwesomeIcon icon={faClock}></FontAwesomeIcon> {time} min</h4>
                 <h3>Rules:</h3>
                 {
                     rules.map(rule => <h6>{rule}</h6>)
